@@ -1,0 +1,41 @@
+Honesty Policy :
+
+“I have done this assignment completely on my own. I have not copied it, nor have I given my solution to anyone else. I understand that if I am involved in plagiarism or cheating I will have to sign an official form that I have cheated and that this form will be stored in my official university record. I also understand that I will receive a grade of 0 for the involved assignment for my first offense and that I will receive a grade of “F” for the course for any additional offense.”
+
+
+IoT Assignment
+
+Name : Mehul Vani
+Bu_# : B00810186
+
+Assignment is in running state, make file has been include, All requirements mentioned in the assignment have been taken care of, and appropriate commenting has been done for better understanding.
+
+I have refered as many examples as possible and also read the TinyOs book by Philip Levis and David Gay for this assignment and used the the similar code snippets as per examples.
+
+
+Please note Motes should be placed as close as possible for successful communication. Also I am not sure about one thing that is if I add multiple motes like instead of 2 ,say 3 or 6 it works only the output comes in the right highlighted part.
+
+Steps
+syntax
+
+Step 1: Run the cooja simulator
+	ant run (before that go to the opt/cooja directory)
+
+Step 2: Compile your program for a sensor platform. 
+	make telosb (This compiles a binary)
+
+Step 3: In the cooja simulator, Create a new simulation and name it (anything you wish)
+	click on new simulation
+
+Step 4:	once you have compiled your program it generates a .exe file
+	select that .exe file as a Contiki process/ Firmware
+
+Step 5: Add motes to the simulations
+	Here 2 sky-motes are added
+
+Step 6: click on start and you increase or decrease the distance of the network nodes, minimum the distance of the nodes better the communication.
+
+Step 7: You can now see the output, bring the motes closer for better communication
+
+
+
